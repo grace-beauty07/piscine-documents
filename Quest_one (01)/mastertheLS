@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -p --time=atime --sort=time --ignore=".*" | paste -sd "," -
